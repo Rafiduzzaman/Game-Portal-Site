@@ -6,81 +6,143 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+
 @media only screen and (max-width: 768px) {
+  .titlebar {
+    display: none;
+  }
+  .nav_elements {
+    display: none;
+  }
+  #menu {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #868686;
+    z-index: 9999;
+    position: fixed;
+  }
+  .cool-button {
+    font-style: none;
+    text-decoration: none;
+  }
+  #navbar {
+    display: block;
+  }
+
+  .mob_menu {
+    background: transparent;
+    border: none;
+  }
+
   #nav_bar {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
     justify-content: space-between;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .menu_item {
+    margin-bottom: 20px;
+  }
+  .menu_item a {
+    display: block;
+    padding: 10px;
+    font-family: "lato", sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    text-decoration: none;
+  }
+  #menu_items {
+    padding: 40px;
+  }
+  .menu_item a:hover {
+    background-color: #ffffff;
+    color: #000000;
   }
   #logo {
     display: flex;
     width: 70%;
     margin-left: 50px;
   }
+  .exit {
+    border: none;
+    background: transparent;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+  }
+  .close {
+    display: flex;
+    justify-content: flex-end;
+  }
   #nav_bar h1 {
     text-align: center; /* Aligns the text within the header in the center */
   }
+
   .cool-heading {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
-    color: #ff6600;
+    color: #f60;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
   nav img {
     width: 31px;
-    height: 27.28px;
     margin-left: 20px;
   }
+
   .showcase {
     display: flex;
     width: 100%;
-    height: fit-content;
+    height: auto;
     background-image: url(/images/774615.jpg);
     background-size: cover;
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 10vh;
   }
+
   .title {
-    margin: 30vh 5vh 0vh 5vh;
+    margin: 30vh 5vh 0 5vh;
   }
+
   #welcome {
     width: fit-content;
-    color: #ff6600;
+    color: #f60;
     font-weight: bold;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
   }
+
   #desc_2 {
     margin-top: 0%;
     margin-bottom: 0%;
     width: fit-content;
-    color: #ff6600;
+    color: #f60;
     font-size: 64px;
     font-family: "Roboto", sans-serif;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
   }
+
   .description p {
     font-family: "Lato", sans-serif;
     color: white;
     font-size: 16px;
-    margin: 5vh 5vh 0vh 5vh;
+    margin: 5vh 5vh 0 5vh;
     background-color: rgba(0, 0, 0, 0.5);
   }
+
   .date {
     width: fit-content;
     height: 20vh;
   }
+
   .part1 {
     justify-content: left;
-    color: #595959;
     font-family: "Gothic A1", sans-serif;
-    font-size: 20px;
     font-style: normal;
     font-weight: 900;
     line-height: 20px;
@@ -90,6 +152,7 @@ body {
     margin: 10vh 5vh 2vh 5vh;
     background-color: rgba(0, 0, 0, 0.5);
   }
+
   .part2 {
     color: #868686;
     font-family: "Gothic A1", sans-serif;
@@ -97,15 +160,16 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 0px;
-    margin: 1vh 5vh 0vh 5vh;
+    margin: 1vh 5vh 0 5vh;
     background-color: rgba(0, 0, 0, 0.5);
   }
+
   .MainProgram {
     display: flex;
     background-image: url(/images/wp7773228-abstract-4k-iphone-11-wallpapers.jpg);
     flex-direction: column;
     align-items: center;
-    height: fit-content;
+    height: auto;
     justify-content: center;
   }
 
@@ -117,13 +181,15 @@ body {
     font-weight: 400;
     line-height: 28px;
     letter-spacing: -0.8px;
-    margin: 10vh 0vh 5vh 0vh;
+    margin: 10vh 0 5vh 0;
   }
+
   .MainProgram hr {
     display: flex;
     width: 30px;
     color: #a04038;
   }
+
   .Program {
     display: flex;
     width: 80%;
@@ -131,11 +197,13 @@ body {
     backdrop-filter: blur(10px);
     align-items: center;
   }
+
   .Program img {
     width: 57.085px;
     height: 51.733px;
     padding: 20px;
   }
+
   .classtitle-1 {
     color: #ff5438;
     font-family: "Lato", sans-serif;
@@ -146,6 +214,7 @@ body {
     letter-spacing: -0.143px;
     padding: 20px;
   }
+
   .desc-3 {
     color: #fff;
     font-family: "Lato", sans-serif;
@@ -155,6 +224,7 @@ body {
     line-height: 22.299px;
     letter-spacing: 0.642px;
   }
+
   #Jp {
     padding: 20px 50px;
     margin-bottom: 5vh;
@@ -166,6 +236,7 @@ body {
     line-height: 28px;
     letter-spacing: -0.16px;
   }
+
   .Sponsors {
     background-image: url(/images/frame.png);
     background-size: cover;
@@ -174,19 +245,23 @@ body {
     align-items: center;
     justify-content: center;
   }
+
   .sponsor {
     display: flex;
     width: 80%;
     margin: 1vh 5vh;
     align-items: center;
   }
+
   .sponsor img {
     width: 107px;
     height: 106.399px;
   }
+
   .desc_4 {
-    margin: 0vh 5vh;
+    margin: 0 5vh;
   }
+
   .name {
     color: white;
     font-family: "Lato", sans-serif;
@@ -196,6 +271,7 @@ body {
     line-height: normal;
     letter-spacing: -0.3px;
   }
+
   .designation {
     color: #f78c89;
     font-family: "Lato", sans-serif;
@@ -205,6 +281,7 @@ body {
     line-height: 20px;
     letter-spacing: -0.2px;
   }
+
   .add_desc {
     color: white;
     font-family: "Lato", sans-serif;
@@ -214,13 +291,14 @@ body {
     line-height: 14px;
     letter-spacing: -0.54px;
   }
+
   .more {
     display: flex;
     width: 70%;
     justify-content: center;
     align-items: center;
     color: #000;
-    font-family: "Lato",sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -228,12 +306,360 @@ body {
     letter-spacing: -0.55px;
     border-radius: 10px;
   }
+
   .icon {
     width: 20px; /* Set the desired width */
     height: 20px;
     padding-left: 20px;
-    }
-    .hidden {
-      display: none;
-    }
+  }
+
+  .hidden {
+    display: none;
+  }
+  #hiddenDiv {
+    padding-left: 5vh;
+  }
+  .partners {
+    display: none;
+  }
+  .credits {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  #menu {
+    display: none;
+  }
+  #mobmenu {
+    display: none;
+  }
+  .titlebar {
+    background: #3e3e3e;
+  }
+  .elements {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .elements img {
+    margin: 2vh 2vh;
+
+    flex-shrink: 0;
+  }
+  .elements p {
+    margin: 0vh 2vh;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .cool-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #f60;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .cool-button {
+    text-decoration: none;
+    font-style: none;
+    margin-left: 5vh;
+  }
+  .nav_elements {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 5vh;
+    justify-content: flex-end;
+  }
+  .nav_elements a {
+    text-decoration: none;
+    margin: 0vh 5vh;
+    color: #868686;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .showcase {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/774615.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+  }
+
+  .title {
+    margin: 10vh 5vh 0 5vh;
+  }
+
+  #welcome {
+    width: fit-content;
+    color: #f60;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
+  }
+
+  #desc_2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: fit-content;
+    color: #f60;
+    font-size: 64px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
+  }
+  .description {
+    width: 50%;
+  }
+  .description p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 24px;
+    margin: 5vh 5vh 0 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .date {
+    width: fit-content;
+    height: 20vh;
+  }
+
+  .part1 {
+    justify-content: left;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: -1.6px;
+    color: white;
+    font-size: 24px;
+    margin: 10vh 5vh 2vh 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .part2 {
+    color: #868686;
+    font-family: "Gothic A1", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+    margin: 1vh 5vh 0 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .MainProgram {
+    display: flex;
+    background-image: url(/images/wp7773228-abstract-4k-iphone-11-wallpapers.jpg);
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+  }
+
+  .title1 {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+    margin: 10vh 0 5vh 0;
+  }
+
+  .MainProgram hr {
+    display: flex;
+    width: 30px;
+    color: #a04038;
+  }
+  .programs {
+    display: flex;
+  }
+  .Program {
+    display: flex;
+    width: 80%;
+    margin: 1vh 5vh;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Program img {
+    width: 57.085px;
+    height: 51.733px;
+    padding: 20px;
+  }
+
+  .classtitle-1 {
+    color: #ff5438;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.143px;
+    padding: 20px;
+  }
+
+  .desc-3 {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.299px;
+    letter-spacing: 0.642px;
+  }
+
+  #Jp {
+    padding: 20px 50px;
+    margin-bottom: 5vh;
+    background: #ff4f38;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: -0.16px;
+  }
+
+  .Sponsors {
+    background-image: url(/images/frame.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sponsor {
+    display: flex;
+    width: 80%;
+    margin: 1vh 5vh;
+    align-items: center;
+  }
+
+  .sponsor img {
+    width: 107px;
+    height: 106.399px;
+  }
+
+  .desc_4 {
+    margin: 0 5vh;
+  }
+
+  .name {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+  }
+
+  .designation {
+    color: #f78c89;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+  }
+
+  .add_desc {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.54px;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .icon {
+    width: 20px; /* Set the desired width */
+    height: 20px;
+    padding-left: 20px;
+  }
+  .hidden {
+    display: flex;
+    width: 88%;
+  }
+  .r1 {
+    display: flex;
+    width: 88%;
+  }
+  #hiddenDiv {
+    padding-left: 5vh;
+  }
+  .partners {
+    display: flex;
+    background: #414246;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 0vh;
+  }
+  .partners hr {
+    width: 35px;
+    height: 2px;
+    background-color: #a04038;
+    border: none;
+  }
+  .partners img {
+    width: 150px;
+    height: 100px;
+    margin: 0vh 5vh;
+  }
+  .desc8 {
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+  }
+  .credits {
+    width: 90%;
+    margin: 10vh 10vh;
+    display: flex;
+    color: #3b3e45;
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13.078px;
+    letter-spacing: -0.1px;
+    justify-content: space-evenly;
+  }
+  .credits img {
+    margin: 0vh 5vh;
+    width: 135px;
+    height: 31.985px;
+  }
 }

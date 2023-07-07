@@ -10,13 +10,51 @@
 </head>
 
 <body>
+    <!-- Hambergur menu -->
+    <div id="menu">
+        <div id="menu_items">
+            <div class="close"><button class="exit">X</button></div>
+            <div class="menu_item">
+                <a href="/Home/Home.html">Home</a>
+            </div>
+            <div class="menu_item">
+                <a href="/About/About.html">About</a>
+            </div>
+            <div class="menu_item">
+                <a href="#">Contact</a>
+            </div>
+            <div class="menu_item">
+                <a href="#">Login</a>
+            </div>
+        </div>
+    </div>
+    <div class="titlebar">
+        <div class="elements">
+            <img src="/images/Rectangle.png" alt="">
+            <img src="/images/twitter.png" alt="">
+            <p>English</p>
+            <p>My Page</p>
+            <p>Logout</p>
+        </div>
+
+    </div>
     <!-- Nav bar -->
     <nav id="nav_bar">
-        <img src="/images/mobile_menu 1.png" alt="">
+        <button class="mob_menu" id="mobmenu"><img src="/images/mobile_menu 1.png" alt=""></button>
         <div id="logo">
-            <h1 class="cool-heading">GamerZportal</h1>
+            <a href="/Home/Home.html" class="cool-button">
+                <h1 class="cool-heading">GamerZportal</h1>
+            </a>
+            <div class="nav_elements">
+                <a href="/About/About.html">About</a>
+                <a href="#">News</a>
+                <a href="#">Program</a>
+                <a href="#">Join</a>
+                <a href="#">Sponsor</a>
+            </div>
         </div>
     </nav>
+
     <!--Main body -->
     <section class="showcase">
         <div class="title">
@@ -24,7 +62,7 @@
                 "Welcome to GamerZportal"
             </p>
             <p id="desc_2">
-                Gamer's Forum 2023
+                Game Forum 2023
             </p>
         </div>
         <div class="description">
@@ -35,7 +73,7 @@
             </p>
         </div>
         <div class="date">
-            <div class="part1">2015.10.15(THU) ~ 2015.10.18(SUN)</div>
+            <div class="part1">Gettogether - 2015.10.15(THU) ~ 2015.10.18(SUN)</div>
             <div class="part2">@National Museum of korea</div>
         </div>
     </section>
@@ -44,75 +82,80 @@
             Main Programs
         </div>
         <hr>
-        <div class="Program">
-            <img src="/images/fg.png" alt="">
-            <p class="classtitle-1">
-                Featured Games
-            </p>
-            <p class="desc-3">
-                Highlight popular or trending games that are generating a lot of interest.
-            </p>
+        <div class="programs">
+            <div class="Program">
+                <img src="/images/fg.png" alt="">
+                <p class="classtitle-1">
+                    Featured Games
+                </p>
+                <p class="desc-3">
+                    Highlight popular or trending games that are generating a lot of interest.
+                </p>
+            </div>
+            <div class="Program">
+                <img src="/images/wt.jpg" alt="">
+                <p class="classtitle-1">
+                    Latest Walkthroughs
+                </p>
+                <p class="desc-3">
+                    Showcase recently published walkthroughs for newly released or popular games.
+                </p>
+            </div>
+            <div class="Program">
+                <img src="/images/gr.jpeg" alt="">
+                <p class="classtitle-1">
+                    Game Reviews
+                </p>
+                <p class="desc-3">
+                    Provide summaries and ratings for games, helping users make informed decisions.
+                </p>
+            </div>
+            <div class="Program">
+                <img src="/images/gc.png" alt="">
+                <p class="classtitle-1">
+                    Game Categories
+                </p>
+                <p class="desc-3">
+                    Organize games into genres or categories (e.g., action, adventure, puzzle) for easy browsing
+                </p>
+            </div>
+            <div class="Program">
+                <img src="/images/spotlight_3174373.png" alt="">
+                <p class="classtitle-1">
+                    Community Spotlights
+                </p>
+                <p class="desc-3">
+                    Showcase user-generated content such as fan art, cosplay, or impressive gameplay videos.
+                </p>
+            </div>
         </div>
-        <div class="Program">
-            <img src="/images/wt.jpg" alt="">
-            <p class="classtitle-1">
-                Latest Walkthroughs
-            </p>
-            <p class="desc-3">
-                Showcase recently published walkthroughs for newly released or popular games.
-            </p>
-        </div>
-        <div class="Program">
-            <img src="/images/gr.jpeg" alt="">
-            <p class="classtitle-1">
-                Game Reviews
-            </p>
-            <p class="desc-3">
-                Provide summaries and ratings for games, helping users make informed decisions.
-            </p>
-        </div>
-        <div class="Program">
-            <img src="/images/gc.png" alt="">
-            <p class="classtitle-1">
-                Game Categories
-            </p>
-            <p class="desc-3">
-                Organize games into genres or categories (e.g., action, adventure, puzzle) for easy browsing
-            </p>
-        </div>
-        <div class="Program">
-            <img src="/images/spotlight_3174373.png" alt="">
-            <p class="classtitle-1">
-                Community Spotlights
-            </p>
-            <p class="desc-3">
-                Showcase user-generated content such as fan art, cosplay, or impressive gameplay videos.
-            </p>
-        </div>
+
         <button id="Jp">Join the program</button>
     </section>
     <section class="Sponsors">
         <p class="title1">
             Sponsored By
         </p>
-        <div class="sponsor">
-            <img src="/images/ubisoft.png" alt="">
-            <div class="desc_4">
-                <p class="name">
-                    Ubisoft
-                </p>
-                <p class="designation">
-                    A prominent French video game company known for developing, publishing, and distributing a wide
-                    range of popular video games. The company was founded in 1986 by the Guillemot family and has since
-                    become one of the largest and most influential players in the gaming industry.
-                </p>
+        <div class="r1">
+            <div class="sponsor">
+                <img src="/images/ubisoft.png" alt="">
+                <div class="desc_4">
+                    <p class="name">
+                        Ubisoft
+                    </p>
+                    <p class="designation">
+                        A prominent French video game company known for developing, publishing, and distributing a wide
+                        range of popular video games. The company was founded in 1986 by the Guillemot family and has
+                        since
+                        become one of the largest and most influential players in the gaming industry.
+                    </p>
 
-                <p class="add_desc">
-                    Ubisoft has studios located worldwide, including in Montreal, Toronto, Paris, Milan, and Shanghai.
-                </p>
+                    <p class="add_desc">
+                        Ubisoft has studios located worldwide, including in Montreal, Toronto, Paris, Milan, and
+                        Shanghai.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="hidden" id="hiddenDiv">
             <div class="sponsor">
                 <img src="/images/intel.png" alt="">
                 <div class="desc_4">
@@ -120,15 +163,20 @@
                         Intel
                     </p>
                     <p class="designation">
-                        Intel is a multinational technology company renowned for designing and manufacturing a wide range of
-                        semiconductor chips, processors, and other hardware components for computers and various electronic
+                        Intel is a multinational technology company renowned for designing and manufacturing a wide
+                        range of
+                        semiconductor chips, processors, and other hardware components for computers and various
+                        electronic
                         devices </p>
-    
+
                     <p class="add_desc">
                         Intel's influence extends beyond the consumer and enterprise computing markets.
                     </p>
                 </div>
             </div>
+
+        </div>
+        <div class="hidden" id="hiddenDiv">
             <div class="sponsor">
                 <img src="/images/nvidia.png" alt="">
                 <div class="desc_4">
@@ -137,8 +185,9 @@
                     </p>
                     <p class="designation">
                         A leading technology company that specializes in designing and manufacturing graphics processing
-                        units (GPUs), system-on-a-chip units (SoCs), and other related hardware and software solutions.</p>
-    
+                        units (GPUs), system-on-a-chip units (SoCs), and other related hardware and software solutions.
+                    </p>
+
                     <p class="add_desc">
                         NVIDIA's innovations and technologies have made a significant impact on the gaming industry,
                         scientific research, AI development, and other computationally intensive fields.
@@ -152,18 +201,34 @@
                         Logitech
                     </p>
                     <p class="designation">
-                        Logitech is a Swiss company that specializes in computer peripherals and accessories. It was founded
-                        in 1981 and has since become one of the leading manufacturers of keyboards, mice, webcams, speakers,
+                        Logitech is a Swiss company that specializes in computer peripherals and accessories. It was
+                        founded
+                        in 1981 and has since become one of the leading manufacturers of keyboards, mice, webcams,
+                        speakers,
                         and other computer accessories</p>
                     <p class="add_desc">
-                        Logitech is a well-respected brand in the computer peripherals industry, providing a wide range of
+                        Logitech is a well-respected brand in the computer peripherals industry, providing a wide range
+                        of
                         products that cater to different needs and preferences.
                     </p>
                 </div>
             </div>
         </div>
-        
+
         <button class="more" onclick="toggleDiv()">More<img class="icon" src="/images/down.png" alt=""></button>
+    </section>
+    <section class="partners">
+        <p class="desc8">Partners</p>
+        <hr>
+        <div><img src="/images/nvidia.png" alt="">
+            <img src="/images/ubisoft.png" alt="">
+            <img src="/images/intel.png" alt="">
+            <img src="/images/logitech.png" alt="">
+        </div>
+    </section>
+    <section class="credits">
+        <img src="/images/cck-logo1 1.png" alt="">
+        <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
     </section>
 </body>
 
