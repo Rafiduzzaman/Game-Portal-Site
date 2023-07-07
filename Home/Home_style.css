@@ -11,9 +11,11 @@ body {
   .titlebar {
     display: none;
   }
+
   .nav_elements {
     display: none;
   }
+
   #menu {
     display: none;
     width: 100%;
@@ -22,10 +24,11 @@ body {
     z-index: 9999;
     position: fixed;
   }
+
   .cool-button {
-    font-style: none;
     text-decoration: none;
   }
+
   #navbar {
     display: block;
   }
@@ -43,39 +46,47 @@ body {
     justify-content: space-between;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   }
+
   .menu_item {
     margin-bottom: 20px;
   }
+
   .menu_item a {
     display: block;
     padding: 10px;
     font-family: "lato", sans-serif;
-    color: #ffffff;
+    color: #fff;
     font-size: 32px;
     text-decoration: none;
   }
+
   #menu_items {
     padding: 40px;
   }
+
   .menu_item a:hover {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #fff;
+    color: #000;
   }
+
   #logo {
     display: flex;
     width: 70%;
     margin-left: 50px;
   }
+
   .exit {
     border: none;
     background: transparent;
     font-family: "lato", sans-serif;
     font-size: 20px;
   }
+
   .close {
     display: flex;
     justify-content: flex-end;
   }
+
   #nav_bar h1 {
     text-align: center; /* Aligns the text within the header in the center */
   }
@@ -316,46 +327,54 @@ body {
   .hidden {
     display: none;
   }
+
   #hiddenDiv {
     padding-left: 5vh;
   }
+
   .partners {
     display: none;
   }
+
   .credits {
     display: none;
   }
 }
+
 @media only screen and (min-width: 769px) {
   #menu {
     display: none;
   }
+
   #mobmenu {
     display: none;
   }
+
   .titlebar {
     background: #3e3e3e;
   }
+
   .elements {
     display: flex;
     width: 90%;
     justify-content: flex-end;
     align-items: center;
   }
+
   .elements img {
     margin: 2vh 2vh;
-
     flex-shrink: 0;
   }
+
   .elements p {
-    margin: 0vh 2vh;
+    margin: 0 2vh;
     color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
+
   #logo {
     display: flex;
     align-items: center;
@@ -364,6 +383,7 @@ body {
     justify-content: space-between;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   }
+
   .cool-heading {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -371,11 +391,12 @@ body {
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
   .cool-button {
     text-decoration: none;
-    font-style: none;
     margin-left: 5vh;
   }
+
   .nav_elements {
     display: flex;
     width: 100%;
@@ -383,9 +404,10 @@ body {
     padding: 0 5vh;
     justify-content: flex-end;
   }
+
   .nav_elements a {
     text-decoration: none;
-    margin: 0vh 5vh;
+    margin: 0 5vh;
     color: #868686;
     font-family: "Lato", sans-serif;
     font-size: 14px;
@@ -393,6 +415,7 @@ body {
     font-weight: 500;
     line-height: normal;
   }
+
   .showcase {
     display: flex;
     width: 100%;
@@ -426,9 +449,11 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
   }
+
   .description {
     width: 50%;
   }
+
   .description p {
     font-family: "Lato", sans-serif;
     color: white;
@@ -491,9 +516,11 @@ body {
     width: 30px;
     color: #a04038;
   }
+
   .programs {
     display: flex;
   }
+
   .Program {
     display: flex;
     width: 80%;
@@ -606,37 +633,44 @@ body {
     height: 20px;
     padding-left: 20px;
   }
+
   .hidden {
     display: flex;
     width: 88%;
   }
+
   .r1 {
     display: flex;
     width: 88%;
   }
+
   #hiddenDiv {
     padding-left: 5vh;
   }
+
   .partners {
     display: flex;
     background: #414246;
     flex-direction: column;
     align-items: center;
-    padding: 10vh 0vh;
+    padding: 10vh 0;
   }
+
   .partners hr {
     width: 35px;
     height: 2px;
     background-color: #a04038;
     border: none;
   }
+
   .partners img {
     width: 150px;
     height: 100px;
-    margin: 0vh 5vh;
+    margin: 0 5vh;
   }
+
   .desc8 {
-    color: #ffffff;
+    color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 28px;
     font-style: normal;
@@ -644,6 +678,7 @@ body {
     line-height: 28px;
     letter-spacing: -0.4px;
   }
+
   .credits {
     width: 90%;
     margin: 10vh 10vh;
@@ -657,8 +692,9 @@ body {
     letter-spacing: -0.1px;
     justify-content: space-evenly;
   }
+
   .credits img {
-    margin: 0vh 5vh;
+    margin: 0 5vh;
     width: 135px;
     height: 31.985px;
   }
