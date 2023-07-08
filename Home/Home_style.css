@@ -536,9 +536,13 @@ body {
   }
 
   .Program {
+    background-color: rgba(134, 134, 134, 0.5);
+    width: 111.325px; /* Set the desired width here */
+    height: 300px; /* Set the desired height here */
     display: flex;
     width: 20%;
-    margin: 1vh 0 0 2vh;
+    padding: 1vh 1vh 1vh 1vh;
+    margin: 0vh 0.5vh;
     backdrop-filter: blur(10px);
     align-items: center;
     flex-direction: column;
@@ -586,6 +590,12 @@ body {
     text-decoration-line: underline;
     border: none;
   }
+  .projects {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .Sponsors {
     background-image: url(/images/frame.png);
@@ -598,8 +608,7 @@ body {
 
   .sponsor {
     display: flex;
-    width: 80%;
-    margin: 1vh 5vh;
+    margin: 0%;
     align-items: center;
   }
 
@@ -660,10 +669,13 @@ body {
   .r1 {
     display: flex;
     width: 88%;
+    padding: 0%;
+    margin: 0%;
   }
 
   #hiddenDiv {
-    padding-left: 5vh;
+    padding: 0%;
+    margin: 0%;
   }
 
   .partners {
