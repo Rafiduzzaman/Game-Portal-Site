@@ -20,7 +20,7 @@ body {
     background-image: url(/images/frames1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
   }
 
   .cool-button {
@@ -228,7 +228,7 @@ body {
     color: orangered;
     text-align: center;
     font-family: "Lato", sans-serif;
-    font-size: 72px;
+    font-size: 200%;
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
@@ -252,6 +252,7 @@ body {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.4px;
+    margin-bottom: 0%;
   }
 
   .past_events hr {
@@ -286,26 +287,30 @@ body {
     background-image: url(/images/11239552_web1_G2E_100818cb_009.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
+    width: 110%;
     height: 60%;
-    margin: 10vh 10vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(10px);
+    margin: 5vh 0;
   }
 
   .past_events2 {
     display: flex;
     background-image: url(/images/636691794192693053--gamers-E3-20150107.jpg);
-    width: 90%;
+    width: 110%;
     height: 60%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10vh 10vh;
+    margin: 5vh 0;
+  }
+
+  .pe {
+    margin: 10vh 0;
   }
 
   .partners {
@@ -324,9 +329,10 @@ body {
   }
 
   .partners img {
-    width: 200px;
-    height: 150px;
+    width: 100px;
+    height: 80px;
     margin: 0 5vh;
+    filter: grayscale(100%);
   }
 
   .desc8 {
@@ -337,10 +343,12 @@ body {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.4px;
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
 
   .credits {
-    width: 90%;
+    width: 80%;
     margin: 10vh 10vh;
     display: flex;
     color: #3b3e45;
@@ -355,8 +363,16 @@ body {
 
   .credits img {
     margin: 0 5vh;
-    width: 135px;
-    height: 31.985px;
+    width: 160px;
+    height: 45px;
+  }
+
+  .logo {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
