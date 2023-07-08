@@ -57,7 +57,7 @@ A simple webpage with Home and About page. And there is an online version of thi
 
 ### Live Demo <a name="live-demo"></a>
 
-The live demo of my project is 
+The live demo of my project will be published as soon as its merged with the main branch . Keep tuned for the live demo. Thanks.
 
 - **Button_animation**
 - **links**
