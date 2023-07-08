@@ -56,7 +56,7 @@ A simple webpage with Home and About page. And there is an online version of thi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://thasipablo.github.io/)
+- [Live Demo](https://rdzaman20000.github.io/)
 
 
 <!-- GETTING STARTED -->
