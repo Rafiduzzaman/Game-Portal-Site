@@ -13,6 +13,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -46,6 +47,17 @@ HTML,CSS and JS is used
 ### Key Features <a name="key-features"></a>
 
 A simple webpage with Home and About page. And there is an online version of this webpage.
+
+- **Button_animation**
+- **links**
+- **Design**
+- **Contact_Form**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Demo <a name="live-demo"></a>
+
+The live demo of my project is 
 
 - **Button_animation**
 - **links**
@@ -136,7 +148,7 @@ Let me know if u liked this portfolio project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank everyone for the guides and materials.
+I would like to thank Cindy Shin as the original design was created by her. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +157,6 @@ I would like to thank everyone for the guides and materials.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

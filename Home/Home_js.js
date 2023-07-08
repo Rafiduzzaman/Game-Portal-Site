@@ -1,5 +1,8 @@
 // mobmenu
 document.addEventListener('DOMContentLoaded', () => {
+  if (window.matchMedia('(min-width: 769px)').matches) {
+    document.getElementById('Jp').textContent = 'SEE THE WHOLE PROGRAM';
+  }
   document.getElementById('mobmenu').addEventListener('click', () => {
     document.getElementById('menu').style.display = 'block';
   });
