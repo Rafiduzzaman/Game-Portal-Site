@@ -153,12 +153,14 @@ body {
     width: fit-content;
     height: 20vh;
   }
+
   .programs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .part1 {
     justify-content: left;
     font-family: "Gothic A1", sans-serif;
@@ -210,6 +212,7 @@ body {
   }
 
   .Program {
+    background-color: rgba(134, 134, 134, 0.5);
     display: flex;
     width: 80%;
     margin: 1vh 5vh;
@@ -337,14 +340,16 @@ body {
   .hidden {
     display: none;
   }
+
   .r1 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   #hiddenDiv {
     display: flex;
-    padding-left: 0vh;
+    padding-left: 0;
     flex-direction: column;
     align-items: center;
   }
@@ -360,6 +365,7 @@ body {
   .Program:hover {
     border: 2px solid white;
   }
+
   .chinese {
     display: none;
   }
@@ -532,7 +538,7 @@ body {
     font-weight: 400;
     line-height: 28px;
     letter-spacing: -0.8px;
-    margin: 10vh 0 0vh 0;
+    margin: 10vh 0 0 0;
   }
 
   .MainProgram hr {
@@ -555,9 +561,8 @@ body {
     width: 111.325px; /* Set the desired width here */
     height: 300px; /* Set the desired height here */
     display: flex;
-    width: 20%;
     padding: 1vh 1vh 1vh 1vh;
-    margin: 0vh 0.5vh;
+    margin: 0 0.5vh;
     backdrop-filter: blur(10px);
     align-items: center;
     flex-direction: column;
@@ -605,6 +610,7 @@ body {
     text-decoration-line: underline;
     border: none;
   }
+
   .projects {
     width: 80%;
     display: flex;
@@ -622,6 +628,7 @@ body {
     align-items: center;
     justify-content: center;
   }
+
   .Sponsors hr {
     width: 51px;
     color: #a04038;
@@ -714,9 +721,11 @@ body {
     background-color: #a04038;
     border: none;
   }
+
   .partners div {
     margin-top: 5vh;
   }
+
   .partners img {
     width: 150px;
     height: 100px;
@@ -756,6 +765,7 @@ body {
     height: 65px;
     padding: 0%;
   }
+
   .credits p {
     color: #000;
     font-family: "Lato", sans-serif;
@@ -765,6 +775,7 @@ body {
     line-height: 28px;
     letter-spacing: -0.14px;
   }
+
   .chinese {
     margin-top: 5vh;
     color: #000;
@@ -775,11 +786,13 @@ body {
     line-height: 28px;
     letter-spacing: -0.56px;
   }
+
   .ob {
     display: flex;
     width: 60%;
     flex-direction: column;
   }
+
   .Program:hover {
     border: 2px solid white;
   }

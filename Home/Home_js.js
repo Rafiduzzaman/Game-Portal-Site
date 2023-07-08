@@ -1,5 +1,3 @@
-
-
 // mobmenu
 document.addEventListener('DOMContentLoaded', () => {
   const button = document.getElementById('Jp');
@@ -18,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Add event listener for window resize
   window.addEventListener('resize', handleButton);
 
-  
   document.getElementById('mobmenu').addEventListener('click', () => {
     document.getElementById('menu').style.display = 'block';
   });
