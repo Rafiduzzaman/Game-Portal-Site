@@ -34,7 +34,6 @@ GamerZportal
 
 **[GamerZportal]** is a dynamic and visually appealing webpage that serves as an interactive showcase of my skills, experiences, and projects. Built using HTML and CSS, this portfolio website aims to present my professional profile in an engaging and professional manner.The link  to my project is 
 
-https://rdzaman20000.github.io/GamersPortal/
 
 ## 🛠 Built With <a name="built-with">HTML, CSS and JS</a>
 
