@@ -1,5 +1,28 @@
+// moreless
+function toggleDiv() {
+  if (window.matchMedia('(max-width: 768px)').matches) {
+    const div = document.getElementById('hiddenDiv');
+    div.classList.toggle('hidden');
+
+    const button = document.querySelector('.more');
+    const buttonText = button.firstChild;
+    const icon = button.querySelector('.icon');
+
+    if (buttonText.nodeValue === 'More') {
+      buttonText.nodeValue = 'Less';
+      icon.src = '/images/up.png';
+    } else {
+      buttonText.nodeValue = 'More';
+      icon.src = '/images/down.png';
+    }
+  }
+  const hiddenDiv = document.getElementById('hiddenDiv');
+  hiddenDiv.classList.toggle('red');
+}
+
 // mobmenu
 document.addEventListener('DOMContentLoaded', () => {
+  toggleDiv();
   const button = document.getElementById('Jp');
 
   function handleButton() {
@@ -32,40 +55,23 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// moreless
-function toggleDiv() {
-  if (window.matchMedia('(max-width: 768px)').matches) {
-    const div = document.getElementById('hiddenDiv');
-    div.classList.toggle('hidden');
-
-    const button = document.querySelector('.more');
-    const buttonText = button.firstChild;
-    const icon = button.querySelector('.icon');
-
-    if (buttonText.nodeValue === 'More') {
-      buttonText.nodeValue = 'Less';
-      icon.src = '/images/up.png';
-    } else {
-      buttonText.nodeValue = 'More';
-      icon.src = '/images/down.png';
-    }
-  }
-}
-toggleDiv();
-
 document.addEventListener('DOMContentLoaded', () => {
+  toggleDiv();
+
   const sponsorData = [
     {
       name: 'Ubisoft',
       imageSrc: '/images/ubisoft.png',
       description: 'Ubisoft is a video game developer and publisher',
-      additionalDescription: 'Ubisoft has studios located worldwide, including in Montreal, Toronto, Paris, Milan, and Shanghai.',
+      additionalDescription:
+        'Ubisoft has studios located worldwide, including in Montreal, Toronto, Paris, Milan, and Shanghai.',
     },
     {
       name: 'Intel',
       imageSrc: '/images/intel.png',
       description: 'Intel is a semiconductor company',
-      additionalDescription: "Intel's influence extends beyond the consumer and enterprise computing markets.",
+      additionalDescription:
+        "Intel's influence extends beyond the consumer and enterprise computing markets.",
     },
   ];
   const container = document.querySelector('.r1');
@@ -105,18 +111,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+  toggleDiv();
   const sponsorData = [
     {
       name: 'Nvidia',
       imageSrc: '/images/nvidia.png',
       description: 'Nvidia is a graphics processing unit (GPU) manufacturer',
-      additionalDescription: "NVIDIA's innovations and technologies have made a significant impact on the gaming industry, scientific research, AI development, and other computationally intensive fields.",
+      additionalDescription:
+        "NVIDIA's innovations and technologies have made a significant impact on the gaming industry, scientific research, AI development, and other computationally intensive fields.",
     },
     {
       name: 'Logitech',
       imageSrc: '/images/logitech.png',
       description: 'Logitech is a computer peripheral and accessories company',
-      additionalDescription: 'Logitech is a well-respected brand in the computer peripherals industry, providing a wide range of products that cater to different needs and preferences.',
+      additionalDescription:
+        'Logitech is a well-respected brand in the computer peripherals industry, providing a wide range of products that cater to different needs and preferences.',
     },
   ];
 
