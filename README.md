@@ -55,16 +55,10 @@ A simple webpage with Home and About page. And there is an online version of thi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-The live demo of my project will be published as soon as its merged with the main branch . Keep tuned for the live demo. Thanks.
+- [Live Demo](https://thasipablo.github.io/)
 
-- **Button_animation**
-- **links**
-- **Design**
-- **Contact_Form**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
