@@ -1,0 +1,806 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .titlebar {
+    display: none;
+  }
+
+  .nav_elements {
+    display: none;
+  }
+
+  #menu {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #868686;
+    z-index: 9999;
+    position: fixed;
+  }
+
+  .cool-button {
+    text-decoration: none;
+  }
+
+  #navbar {
+    display: block;
+  }
+
+  .mob_menu {
+    background: transparent;
+    border: none;
+  }
+
+  #nav_bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .menu_item {
+    margin-bottom: 20px;
+  }
+
+  .menu_item a {
+    display: block;
+    padding: 10px;
+    font-family: "lato", sans-serif;
+    color: #fff;
+    font-size: 32px;
+    text-decoration: none;
+  }
+
+  #menu_items {
+    padding: 40px;
+  }
+
+  .menu_item a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  #logo {
+    display: flex;
+    width: 70%;
+    margin-left: 50px;
+  }
+
+  .exit {
+    border: none;
+    background: transparent;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+  }
+
+  .close {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #nav_bar h1 {
+    text-align: center; /* Aligns the text within the header in the center */
+  }
+
+  .cool-heading {
+    display: none;
+
+    /* font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #f60;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  }
+
+  nav img {
+    width: 31px;
+    margin-left: 20px;
+  }
+
+  .showcase {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url(/images/774615.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10vh;
+  }
+
+  .title {
+    margin: 30vh 5vh 0 5vh;
+  }
+
+  #welcome {
+    width: fit-content;
+    color: #f60;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
+  }
+
+  #desc_2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: fit-content;
+    color: #f60;
+    font-size: 64px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
+  }
+
+  .description p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 16px;
+    margin: 5vh 5vh 0 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .date {
+    width: fit-content;
+    height: 20vh;
+  }
+
+  .programs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .part1 {
+    justify-content: left;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: -1.6px;
+    color: white;
+    font-size: 24px;
+    margin: 10vh 5vh 2vh 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .part2 {
+    color: #868686;
+    font-family: "Gothic A1", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+    margin: 1vh 5vh 0 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .MainProgram {
+    display: flex;
+    background-image: url(/images/wp7773228-abstract-4k-iphone-11-wallpapers.jpg);
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+  }
+
+  .title1 {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+    margin: 10vh 0 0 0;
+  }
+
+  .MainProgram hr {
+    display: flex;
+    width: 30px;
+    color: #a04038;
+  }
+
+  .Program {
+    background-color: rgba(134, 134, 134, 0.5);
+    display: flex;
+    width: 80%;
+    margin: 1vh 5vh;
+    backdrop-filter: blur(10px);
+    align-items: center;
+  }
+
+  .Program img {
+    width: 57.085px;
+    height: 51.733px;
+    padding: 20px;
+  }
+
+  .classtitle-1 {
+    color: #ff5438;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.143px;
+    padding: 20px;
+    width: 100px !important;
+    margin-right: 10vh;
+    box-sizing: border-box;
+  }
+
+  .desc-3 {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.299px;
+    letter-spacing: 0.642px;
+  }
+
+  #Jp {
+    padding: 20px 50px;
+    margin-bottom: 5vh;
+    background: #ff4f38;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: -0.16px;
+  }
+
+  .Sponsors {
+    background-image: url(/images/frame.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sponsor {
+    display: flex;
+    width: 80%;
+    margin: 1vh 5vh;
+    align-items: center;
+  }
+
+  .sponsor img {
+    width: 107px;
+    height: 106.399px;
+  }
+
+  .desc_4 {
+    margin: 0 5vh;
+  }
+
+  .name {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+  }
+
+  .designation {
+    color: #f78c89;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+  }
+
+  .add_desc {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.54px;
+  }
+
+  .more {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.55px;
+    border-radius: 10px;
+  }
+
+  .icon {
+    width: 20px; /* Set the desired width */
+    height: 20px;
+    padding-left: 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .r1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Sponsors hr {
+    width: 30px;
+    height: 2px;
+    background: #a04038;
+    border: none;
+  }
+
+  /* .red {
+    display: flex;
+    padding-left: 0;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .partners {
+    display: none;
+  }
+
+  .credits {
+    display: none;
+  }
+
+  .Program:hover {
+    border: 2px solid white;
+  }
+
+  .chinese {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #menu {
+    display: none;
+  }
+
+  #mobmenu {
+    display: none;
+  }
+
+  .titlebar {
+    background: #3e3e3e;
+  }
+
+  .elements {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .elements img {
+    margin: 2vh 2vh;
+    flex-shrink: 0;
+  }
+
+  .elements p {
+    margin: 0 2vh;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .cool-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #f60;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .cool-button {
+    text-decoration: none;
+    margin-left: 5vh;
+  }
+
+  .nav_elements {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 5vh;
+    justify-content: flex-end;
+  }
+
+  .nav_elements a {
+    text-decoration: none;
+    margin: 0 5vh;
+    color: #868686;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .showcase {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/774615.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+  }
+
+  .title {
+    margin: 10vh 5vh 0 5vh;
+  }
+
+  #welcome {
+    width: fit-content;
+    color: #f60;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
+  }
+
+  #desc_2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: fit-content;
+    color: #f60;
+    font-size: 64px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the blur radius as needed */
+  }
+
+  .description {
+    width: 50%;
+  }
+
+  .description p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 24px;
+    margin: 5vh 5vh 0 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .date {
+    width: fit-content;
+    height: 20vh;
+  }
+
+  .part1 {
+    justify-content: left;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: -1.6px;
+    color: white;
+    font-size: 24px;
+    margin: 10vh 5vh 2vh 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .part2 {
+    color: #868686;
+    font-family: "Gothic A1", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+    margin: 1vh 5vh 0 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .MainProgram {
+    display: flex;
+    background-image: url(/images/wp7773228-abstract-4k-iphone-11-wallpapers.jpg);
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+  }
+
+  .title1 {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+    margin: 10vh 0 0 0;
+  }
+
+  .MainProgram hr {
+    display: flex;
+    width: 30px;
+    color: #a04038;
+  }
+
+  .programs {
+    width: 70%;
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .Program {
+    background-color: rgba(134, 134, 134, 0.5);
+    width: 111.325px; /* Set the desired width here */
+    height: 300px; /* Set the desired height here */
+    display: flex;
+    padding: 1vh 1vh 1vh 1vh;
+    margin: 0 0.5vh;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Program img {
+    width: 57.085px;
+    height: 51.733px;
+    padding: 20px;
+  }
+
+  .classtitle-1 {
+    color: #ff5438;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.143px;
+    margin: 0%;
+  }
+
+  .desc-3 {
+    color: #fff;
+    width: 80%;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.299px;
+    letter-spacing: 0.642px;
+    text-align: center;
+  }
+
+  #Jp {
+    padding: 20px 50px;
+    margin-bottom: 5vh;
+    background: transparent;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    text-decoration-line: underline;
+    border: none;
+  }
+
+  .projects {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+
+  .Sponsors {
+    background-image: url(/images/frame.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Sponsors hr {
+    width: 51px;
+    color: #a04038;
+  }
+
+  .sponsor {
+    display: flex;
+    margin: 0%;
+    align-items: center;
+  }
+
+  .sponsor img {
+    width: 107px;
+    height: 106.399px;
+  }
+
+  .desc_4 {
+    margin: 0 5vh;
+  }
+
+  .name {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    margin: 0%;
+  }
+
+  .designation {
+    color: #f78c89;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+  }
+
+  .add_desc {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.54px;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .icon {
+    width: 20px; /* Set the desired width */
+    height: 20px;
+    padding-left: 20px;
+  }
+
+  .hidden {
+    display: flex;
+    width: 88%;
+  }
+
+  .r1 {
+    display: flex;
+    width: 88%;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  #hiddenDiv {
+    padding: 0%;
+    margin-top: 5vh;
+  }
+
+  .partners {
+    display: flex;
+    background: #414246;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 0;
+  }
+
+  .partners hr {
+    width: 35px;
+    height: 2px;
+    background-color: #a04038;
+    border: none;
+  }
+
+  .partners div {
+    margin-top: 5vh;
+  }
+
+  .partners img {
+    width: 150px;
+    height: 100px;
+    margin: 0 5vh;
+    filter: grayscale(100%);
+  }
+
+  .desc8 {
+    color: #8f8f91;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    margin-bottom: 0%;
+  }
+
+  .credits {
+    width: 90%;
+    margin: 10vh 10vh;
+    display: flex;
+    color: #3b3e45;
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13.078px;
+    letter-spacing: -0.1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .credits img {
+    margin: 0 5vh;
+    width: 250px;
+    height: 65px;
+    padding: 0%;
+  }
+
+  .credits p {
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.14px;
+  }
+
+  .chinese {
+    margin-top: 5vh;
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.56px;
+  }
+
+  .ob {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+  }
+
+  .Program:hover {
+    border: 2px solid white;
+  }
+}
